@@ -12,6 +12,8 @@ python main.py <YOUR INPUT FILE HERE>
 
 The file content is expected to be Unicode text, emojis, URLs, mentions, hashtags, and sequencies of emojis–basically anything that you would see in chats and on social media.
 
+To get a better idea, you can take a look at the [example input](data/example_input.txt).
+
 ## Output
 
 Sample output could look like this:
@@ -40,7 +42,6 @@ this? 1
 - Treat hashtags (#foobar, including numbers and underscores until the next space) as one word and don't trim it.
 - Don't count sequencies of special characters as words.
 - Check that a URL is counted as one word.
-- Include sample input file.
 - Make sure it works on Python 3.x.
 - Use virtualenv.
 
